@@ -1,0 +1,118 @@
+.App-rsvp {
+    padding: 0 5%;
+}
+
+.App-rsvpForm {
+    width: calc(100% - 40px);
+    text-align: left;
+}
+
+.App-rsvpForm.style-backdrop {
+    padding: 20px;
+}
+
+.App-rsvpForm form, .App-rsvpForm .success {
+    float: left;
+    width: calc(50% - 20px);
+    max-width: 520px;
+    padding-right: 20px;
+}
+
+.App-rsvpForm input {
+    height: 32px;
+    padding: 8px;
+    vertical-align: middle;
+}
+
+.App-rsvpForm select {
+    padding: 16px 8px;
+}
+
+.App-rsvpForm input[type=number] {
+    padding-right: 0px;
+}
+
+.App-rsvpForm button {
+    background-color: #ffffff;
+    border: 1px solid #4a4a4a;
+    height: 48px;
+    padding: 8px 16px;
+    color: #4a4a4a;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.App-rsvpForm input, .App-rsvpForm textarea {
+    width: calc(100% - 18px);
+    max-width: 480px;
+}
+
+.App-rsvpForm label {
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.App-kidsTable {
+    text-align: center;
+}
+
+.App-kidsTable input {
+    width: 35px;
+}
+
+.App-menuInfo {
+    float: left;
+    width: 50%;
+    max-width: 520px;
+    overflow: hidden;
+}
+
+.style-addlInfoHeader {
+    font-family: sans-serif;
+}
+
+.style-addlInfoToggle {
+    margin-left: 25px;
+}
+
+.App-rsvpForm .style-shortLabel {
+    width: auto;
+}
+
+.App-rsvpForm .style-shortLabel input {
+    margin-bottom: 8px;
+    width: auto;
+    height: auto;
+}
+
+input.style-intInput {
+    width: 35px;
+}
+
+.style-error {
+    display: inline-block;
+    color: red;
+}
+
+@media screen and (max-width: 959px) {
+    .App-rsvp {
+        padding: 0;
+    }
+
+    .App-rsvpForm form {
+        float: none;
+        width: 100%;
+    }
+
+    .App-menuInfo {
+        float: none;
+        width: 100%;
+    }
+
+    .App-MenuItem.style-calloutBox {
+        width: calc(100% - 42px);
+        height: auto;
+    }
+}

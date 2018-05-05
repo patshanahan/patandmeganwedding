@@ -1,0 +1,15 @@
+.App-Accommodations {
+    overflow: hidden;
+}
+
+.App-hotel.style-calloutBox {
+    width: calc(50% - 32px);
+    height: 300px;
+}
+
+@media screen and (max-width: 959px) {
+    .App-hotel.style-calloutBox {
+        width: calc(100% - 32px);
+        height: auto;
+    }
+}

@@ -1,0 +1,31 @@
+.App-header {
+    background-color: #222222;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: 50% 50%;
+    margin: 25px auto 0;
+    max-width: 960px;
+    max-height: 720px;
+}
+
+.App-heaaderContent {
+    margin-top: 10%;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-separator img {
+    width: 400px;
+}
+
+@media screen and (max-width: 959px) {
+    .App-heaaderContent {
+        margin-top: 0;
+    }
+
+    .App-separator img {
+        display: none;
+    }
+}

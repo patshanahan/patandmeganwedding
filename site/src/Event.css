@@ -1,0 +1,54 @@
+.App-event {
+    margin: 25px;
+}
+
+.App-eventContain {
+    overflow: hidden;
+}
+
+.App-eventInfo {
+    width: calc(25% - 40px);
+    height: 320px;
+    padding: 20px;
+    float: left;
+}
+
+.App-eventInfo.style-backdrop {
+    padding: 20px;
+}
+
+.App-eventInfo .style-label {
+    font-style: italic;
+}
+
+.App-map {
+    position: relative;
+    float: left;
+    width: 75%;
+    height: 360px;
+}
+
+.App-mapInfo, .App-mapInfo a {
+    color: #000000;
+}
+
+.App-mapInfo img {
+    width: 140px;
+}
+
+@media screen and (max-width: 959px) {
+    .App-event {
+        margin: 25px 0;
+    }
+    
+    .App-eventInfo {
+        float: none;
+        width: calc(100% - 40px);
+        height: auto;
+    }
+
+    .App-map {
+        float: none;
+        width: 100%;
+    }
+}

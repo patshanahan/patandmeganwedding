@@ -1,0 +1,11 @@
+.App-MenuItem.style-calloutBox {
+    margin: 0 5px 15px;
+    width: calc(50% - 42px);
+    height: 240px;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+.App-MenuItem h3 {
+    text-align: center;
+}

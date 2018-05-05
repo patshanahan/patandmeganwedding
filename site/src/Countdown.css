@@ -1,0 +1,34 @@
+.App-countdown {
+    background-size: 100% auto;
+    background-position: 50% calc(50% - 25px);
+    background-repeat: no-repeat;
+    margin: 50px auto 0;
+    max-width: 960px;
+    height: 480px;
+    min-height: 150px;
+}
+
+.App-countdownContent.style-backdrop {
+    margin-top: 15%;
+    width: 100%;
+    max-width: 800px;
+    padding: 20px 0;
+}
+
+.App-countdownTable {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.App-countdownTable th {
+    width: 25%;
+}
+
+@media screen and (max-width: 959px) {
+    .App-countdown {
+        height: auto;
+    }
+    .App-countdownContent.style-backdrop {
+        margin-top: 0;
+    }
+}

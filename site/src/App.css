@@ -1,28 +1,94 @@
-.App {
+body {
+  background-color: #a7a7a7;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Felipa', cursive, sans-serif;
+}
+
+.style-txtRight {
+  text-align: right;
+}
+
+.style-txtSmall {
+  font-size: 14px;
+}
+
+.style-backdrop {
+    background-color: rgba(0, 0, 0, .5);
+    display: inline-block;
+    padding: 20px 100px;
+}
+
+.style-backdrop ul {
+  text-align: left;
+}
+
+.style-newWindow:after {
+  content: '<img src="./newWindow.png" />'
+}
+
+.style-noGapBottom {
+  margin-bottom: 0;
+}
+
+.style-subtitle {
+  font-size: 12px;
+}
+
+.style-calloutBox {
+  background-color: #ffffff;
+  float: left;
+  margin: 0 5px;
+  border: 1px dashed #545454;
+  border-radius: 15px;
+  width: calc(25% - 32px);
+  padding: 10px;
+  color: #000000;
+}
+
+.style-calloutBox a {
+  color: #000000;
+}
+
+.style-centered {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.App {
+  background-color: #3d787e;
+  box-shadow: rgba(49, 49, 49, 0.1) 0px 0px 10px 0px;
+  overflow: hidden;
+  margin: 0 auto;
+  max-width:1200px;
+  padding: 25px 0;
   color: white;
+  text-align: center;
 }
 
-.App-title {
-  font-size: 1.5em;
+.App-people {
+  position: relative;
+  overflow: hidden;
 }
 
-.App-intro {
-  font-size: large;
+.App-separator2 {
+  position: absolute;
+  bottom: 65px;
+  left: 245.5px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+@media screen and (max-width: 959px) {
+  .style-backdrop {
+    padding: 20px 25px;
+  }
+
+  .style-calloutBox {
+    width: calc(50% - 32px);
+  }
 }

@@ -1,0 +1,13 @@
+.App-map {
+    float: left;
+    width: 75%;
+    height: 360px;
+}
+
+.App-mapInfo, .App-mapInfo a {
+    color: #000000;
+}
+
+.App-mapInfo img {
+    width: 140px;
+}
