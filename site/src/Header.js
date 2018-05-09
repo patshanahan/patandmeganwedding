@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import splash from './splash.jpg';
+import splash from './engagement_splash.jpg';
 import separator from './separator.png';
 import './Header.css';
 

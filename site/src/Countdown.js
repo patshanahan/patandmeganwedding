@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Countdown.css';
-import countdownImg from './rings.jpg';
+import countdownImg from './ring_splash.jpg';
 
 var countdownBG = {
   backgroundImage: 'url(' + countdownImg + ')'

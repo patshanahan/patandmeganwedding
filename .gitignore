@@ -9,6 +9,7 @@
 
 # production
 /build
+site/build/
 *.zip
 
 # misc
