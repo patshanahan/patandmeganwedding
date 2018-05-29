@@ -1,0 +1,82 @@
+.Results {
+  background-color: #3d787e;
+  box-shadow: rgba(49, 49, 49, 0.1) 0px 0px 10px 0px;
+  overflow: hidden;
+  margin: 0 auto;
+  max-width:1200px;
+  padding: 25px 0;
+  color: white;
+  text-align: center;
+}
+
+.ResultsTable {
+  background-color: #ffffff;
+  border-collapse: collapse;
+  margin: 0 15px;
+  width: 97%;
+  width: calc(100% - 30px);
+  color: #000000;
+}
+
+.ResultsTable th {
+  border-bottom: 1px solid #4a4a4a;
+}
+
+.ResultsTable th, .ResultsTable td {
+  padding: 5px;
+}
+
+.ResultsTable tr:nth-child(even) {
+  background-color: #c3c3c3;
+}
+
+.ResultsGraph {
+  background: #ffffff;
+  overflow: hidden;
+}
+
+.ResultBar {
+  float: left;
+  margin: 5px 15px;
+  border: 1px solid #4a4a4a;
+}
+
+.ResultBar .BarLabel {
+  position: relative;
+  top: 95%;
+  top: calc(100% - 45px);
+}
+
+.bar-5050 .ResultBar {
+  width: 45%;
+  width: calc(50% - 32px);
+}
+
+.bar-5050 .ResultBar:nth-child(1) {
+  background-color: rgba(42, 170, 42, 1);
+}
+
+.bar-5050 .ResultBar:nth-child(2) {
+  background-color: rgba(170, 42, 42, 1);
+}
+
+.bar-25 .ResultBar {
+  width: 20%;
+  width: calc(25% - 32px);
+}
+
+.bar-25 .ResultBar:nth-child(1) {
+  background-color: rgba(170, 42, 42, 1);
+}
+
+.bar-25 .ResultBar:nth-child(2) {
+  background-color: rgb(42, 42, 170, 1);
+}
+
+.bar-25 .ResultBar:nth-child(3) {
+  background-color: rgba(42, 170, 42, 1);
+}
+
+.bar-25 .ResultBar:nth-child(4) {
+  background-color: rgb(170, 170, 42, 1);
+}
