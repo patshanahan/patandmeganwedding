@@ -117,6 +117,11 @@ class Event extends Component {
               </Map>
             </div>
         </div>
+        <h2 className="App-eventTitle">Additional Information:</h2>
+        <div className="style-backdrop">
+          <p>For our guests staying at the Sheraton hotel, a shuttle service will be available to transport guests to and from the wedding.  For those who plan on driving, we will have a <strong>free</strong> valet service available due to the limited amount of parking in the area.</p>
+          <p>Unfortunately for our guests staying at the Moxy we will not be able to provide shuttle service.</p>
+        </div>
       </div>
     );
   }

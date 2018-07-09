@@ -4,7 +4,7 @@ import Header from './Header.js';
 import Countdown from './Countdown.js';
 import Event from './Event.js';
 import Registry from './Registry.js';
-import RSVP from './RSVP.js';
+//import RSVP from './RSVP.js';
 import Accommodations from './Accommodations.js';
 import './App.css';
 import './icons.css';
@@ -76,7 +76,9 @@ class App extends Component {
           onMapClick={this.onMapClick}
         />
         <Registry />
+        {/*
         <RSVP />
+        */}
         <Accommodations
           onAnchorClick={this.onAnchorClick}
         />

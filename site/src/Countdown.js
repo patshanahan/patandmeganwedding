@@ -6,7 +6,7 @@ var countdownBG = {
   backgroundImage: 'url(' + countdownImg + ')'
 }
 
-var targetDate = new Date(2018, 6, 13, 15);
+var targetDate = new Date(2018, 6, 14, 17);
 
 class Countdown extends Component {
   constructor(props) {

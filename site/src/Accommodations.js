@@ -7,7 +7,7 @@ class Accommodations extends Component {
     return (
       <div className="App-Accommodations">
         <h2>Accommodations</h2>
-        <p>Visiting from out of town?  Or just looking for a weekend getaway in the area?  We have blocked rooms for Friday the 13th and Saturday the 14th (day of wedding) at the following hotels (<strong>shuttle service to the ceremony will be arranged for both locations</strong>):</p>
+        <p>Visiting from out of town?  Or just looking for a weekend getaway in the area?  We have blocked rooms for Friday the 13th and Saturday the 14th (day of wedding) at the following hotels (shuttle service to the ceremony will be arranged for the <strong>Sheraton only</strong>):</p>
         <Hotel
             hotelName="Moxy Minneapolis Uptown"
             rate="$149 (single queen or king)"
